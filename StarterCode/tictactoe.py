@@ -63,39 +63,9 @@ def play_game():
         #Check winner
         def check_winner():
             global game_on
-            #Check rows if there is a win 
-            if board[0] == board[1] == board[2] != "-":
-                game_on = False
-                print("Congratulations " + board[0]+" you WON!")
-            elif board[3] == board[4] == board[5] != "-":
-                game_on = False
-                print("Congratulations " + board[3]+" you WON!")
-            elif board[6] == board[7] == board[8] != "-":
-                game_on = False
-                print("Congratulations " + board[6]+" you WON!")
-             #Check columns if there is a win
-            elif board[0] == board[3] == board[6] != "-":
-                game_on = False
-                print("Congratulations " + board[0]+" you WON!")
-            elif board[1] == board[4] == board[7] != "-":
-                game_on = False
-                print("Congratulations " + board[1]+" you WON!")
-            elif board[2] == board[5] == board[8] != "-":
-                game_on = False
-                print("Congratulations " + board[2]+" you WON!")
-             #Check diagonals if there is a win
-            elif board[0] == board[4] == board[8] != "-":
-                game_on = False
-                print("Congratulations " + board[0]+" you WON!")
-            elif board[2] == board[4] == board[6] != "-":
-                game_on = False
-                print("Congratulations "+ board[6]+" you WON!")
-             #If none of the above, then, it's a tie
-            elif "-" not in board:
-                game_on = False
-                print("It's a Tie")
-                exit()
-
+            #TODO: Check rows if there is a win 
+            ...
+            
         #Function to flip player
         def flip_player():
             global current_player
