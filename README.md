@@ -1,2 +1,2 @@
 ## BU Summer Challenge: Computer Science 
-### Course Material and Python Notebooks (July 2024)
+### Course Material, Starter Code and Python Notebooks (July 2024)
